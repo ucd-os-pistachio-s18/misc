@@ -1,9 +1,10 @@
+
 /* TEAM PISTACHIO 
  * STYLE CONVENTIONS
  *
- * 2018 REV B
+ * VERSIONING IS DISPLAYED AS PER STANDARDS
+ * v 2018.2.0
  */
- 
 
 /* 
 Block comments may or may not be in capital letters. 
@@ -11,14 +12,13 @@ Block comments may or may not begin on the line containing the /* symbol.
 Block comments may or may not include leading asterisks.
 Block comments are suggested to contain complete sentences.
 */
-  
 
 // C++ STYLE COMMENTS (IF PERMITTED) PREFERABLY IN CAPITAL LETTERS
 // POINTERTYPES WILL BE (type*) RATHER THAN (type *)
 void underscore_function (int, char*, StructType*);
 
-
 // FUNCTION SIGNATURE MAY OR MAY NOT TOUCH FUNCTION NAME
+// FUNCTION PARAMETERS AND ARGUMENTS ARE CAMELCASE (A.K.A. PASCALCASE)
 void underscore_function(int camelCase, char* camelCase_ptr, StructType* structInstantiation_ptr)
 {
 	if (1 == 1)
@@ -34,4 +34,6 @@ void underscore_function(int camelCase, char* camelCase_ptr, StructType* structI
 		// else ON ITS OWN LINE
 	}
 }
-
+// INDENTATION FOLLOWS TYPICAL PARAGRAPH TYPE STYLE TO MAKE CODE EASIER TO READ
+// TABS ARE SUFFICIENT FOR WHITE SPACE WHEN AN INNER BLOCK IS CREATED
+// SINGLE SPACE RETURNS ARE SUFFICIENT BETWEEN 'PARAGRAPHS'
