@@ -3,7 +3,7 @@
  * STYLE CONVENTIONS
  *
  * VERSIONING IS DISPLAYED AS PER STANDARDS
- * v 2018.2.0
+ * v 2018.3.1
  */
 
 /* 
@@ -13,7 +13,7 @@ Block comments may or may not include leading asterisks.
 Block comments are suggested to contain complete sentences.
 */
 
-// C++ STYLE COMMENTS (IF PERMITTED) PREFERABLY IN CAPITAL LETTERS
+// C++ STYLE COMMENTS PREFERABLY IN CAPITAL LETTERS
 // POINTERTYPES WILL BE (type*) RATHER THAN (type *)
 void underscore_function (int, char*, StructType*);
 
