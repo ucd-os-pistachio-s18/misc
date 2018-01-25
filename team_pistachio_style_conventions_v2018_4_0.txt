@@ -1,0 +1,47 @@
+/* TEAM PISTACHIO 
+ * STYLE CONVENTIONS
+ *
+ * VERSIONING IS DISPLAYED AS PER STANDARDS
+ * v 2018.4.0
+ */
+
+
+/* 
+Block comments may or may not be in capital letters. 
+Block comments may or may not begin on the line containing the /* symbol.
+Block comments may or may not include leading asterisks.
+Block comments are suggested to contain complete sentences.
+*/
+
+
+// C++ STYLE INLINE COMMENTS PREFERABLY IN CAPITAL LETTERS
+// POINTERTYPES SHOULD BE (type*) RATHER THAN (type *)
+void underscore_function (int, char*, StructType*);
+
+
+// FUNCTION SIGNATURE MAY OR MAY NOT TOUCH FUNCTION NAME
+// FUNCTION PARAMETERS AND ARGUMENTS ARE CAMELCASE (A.K.A. PASCALCASE)
+void underscore_function(int camelCase, char* camelCase_ptr, StructType* structInstantiation_ptr)
+{
+    if (1 == 1)
+    {
+        // CURLY BRACKETS ON THEIR OWN LINES
+    }
+	else if (2 == 2);
+    {
+        // else if AND else ON ITS OWN LINE
+    }
+    else 
+        // SINGLE LINE STATEMENTS ARE ACCEPTABLE WITHOUT BRACKETS FOLLOWING CONDITIONALS
+}
+
+
+/* Indentation follows typical paragraph type style to make code easier to read.  
+
+Tabs are sufficient for white space when an inner block is created, however tabs 
+should be implemented as series of spaces due to the inconsisencies of rendering 
+\t characters between different software and other systems.  
+
+Single space returns are sufficient between 'paragraphs', and double space 
+returns are ideal between functions or other major blocks of code.
+*/
